@@ -10,38 +10,51 @@
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        bool flag = 0;
-        if(l1==NULL&&l2==NULL&&flag==0)	return NULL;
-        else if(l1==NULL&&l2==NULL&&flag==1)
+        return helper(l1, l2, 0);
+    }
+    ListNode* helper(ListNode* l1, ListNode* l2, int flag)
+    {
+        if(!l1 && !l2 )
         {
-            ListNode* result = new ListNode(0);
-            return result;
+            if(flag == 0)
+                return NULL;
+            else
+            {
+                ListNode* res = new ListNode(1);
+                return res;
+            }
         }
-        flag = 1;
-        if(l1==NULL)     return l2;
-            
-        else if(l2==NULL)	return l1;
-
+        else if(!l1 && l2 || !l2 && l1)
+        {
+            ListNode* tmp = l1 == NULL ? l2 : l1;
+            ListNode* tmp2 = l2 == NULL ? l2 : l1;
+            if(tmp->val + flag > 9)
+            {
+                ListNode* res = new ListNode((tmp->val + flag) % 10);
+                res->next = helper(tmp->next, NULL, 1);
+                return res;
+            }
+            else
+            {
+                ListNode* res = new ListNode(tmp->val + flag);
+                res->next = helper(tmp->next, NULL, 0);
+                return res;
+            }
+        }
         else
         {
-          	
-        	if((l1->val+l2->val)<10)
-        	{	
-        		ListNode* result =new ListNode(l1->val+l2->val);
-        	
-        		result->next = addTwoNumbers(l1->next,l2->next);
-        			return result;
-        	}	
-        	else
-        	{
-        		ListNode* result =new ListNode((l1->val+l2->val)%10);
-        		ListNode* m = new ListNode(1);
-				ListNode* q = addTwoNumbers(l1->next,l2->next);
-				q = addTwoNumbers(q,m);
-				result->next = q;
-					return result;
-        	}
-    
+            if(l1->val + l2->val + flag > 9)
+            {
+                ListNode* res = new ListNode((l1->val + l2->val + flag) % 10);
+                res->next = helper(l1->next, l2->next, 1);
+                return res;
+            }
+            else
+            {
+                ListNode* res = new ListNode(l1->val + l2->val + flag);
+                res->next = helper(l1->next, l2->next, 0);
+                return res;
+            }
         }
     }
 };

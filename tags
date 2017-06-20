@@ -1,0 +1,578 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AllocateIndex	update.cpp	/^void AllocateIndex(int SATNUM)$/;"	f	signature:(int SATNUM)
+BSTIterator	LeetCode50.cpp	/^    BSTIterator(TreeNode *root) {$/;"	f	class:BSTIterator	access:public	signature:(TreeNode *root)
+BSTIterator	LeetCode50.cpp	/^class BSTIterator {$/;"	c	file:
+BSTIterator::BSTIterator	LeetCode50.cpp	/^    BSTIterator(TreeNode *root) {$/;"	f	class:BSTIterator	access:public	signature:(TreeNode *root)
+BSTIterator::bowl	LeetCode50.cpp	/^    vector<TreeNode*> bowl;$/;"	m	class:BSTIterator	file:	access:public
+BSTIterator::hasNext	LeetCode50.cpp	/^    bool hasNext() {$/;"	f	class:BSTIterator	access:public	signature:()
+BSTIterator::index	LeetCode50.cpp	/^    int index = 0;$/;"	m	class:BSTIterator	file:	access:public
+BSTIterator::next	LeetCode50.cpp	/^    int next() {$/;"	f	class:BSTIterator	access:public	signature:()
+Codec	LeetCode56.cpp	/^class Codec {$/;"	c	file:
+Codec::deserialize	LeetCode56.cpp	/^    TreeNode* deserialize(string data) {$/;"	f	class:Codec	access:public	signature:(string data)
+Codec::serialize	LeetCode56.cpp	/^    string serialize(TreeNode* root) {$/;"	f	class:Codec	access:public	signature:(TreeNode* root)
+Codec::split	LeetCode56.cpp	/^    vector<string> split(const string& s, string delim)$/;"	f	class:Codec	access:public	signature:(const string& s, string delim)
+Emissioned	update.cpp	/^bool Emissioned[SATSUM];$/;"	v
+LinkTable_Forward	update.cpp	/^int LinkTable_Forward[SATSUM][4];$/;"	v
+LinkTable_Reverse	update.cpp	/^int LinkTable_Reverse[SATSUM][4];$/;"	v
+Link_Index	update.cpp	/^int Link_Index[SATSUM][SATSUM];$/;"	v
+SATSUM	update.cpp	/^const int SATSUM = 48;$/;"	v
+Solution	LeetCode1.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode10.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode100.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode101.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode101_right(important).cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode102.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode103.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode104.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode105.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode105_correct.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode106.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode107.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode108.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode109.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode11.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode110.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode111.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode112.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode113.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode114.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode115.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode116.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode117.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode12.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode13.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode14.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode15.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode16.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode17.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode18.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode19.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode2.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode20.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode21.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode22.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode23.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode24.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode25.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode26.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode29.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode2_1.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode2_2.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode3.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode30.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode31.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode33.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode35.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode36.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode39.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode4.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode40.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode46.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode48.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode49.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode5.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode51.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode52.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode53.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode54.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode55.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode57.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode58.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode59.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode6.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode6.cpp	/^public class Solution {$/;"	c	file:
+Solution	LeetCode60.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode61.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode62.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode63.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode64.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode65.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode66.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode67.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode68.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode69.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode7.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode70.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode71.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode72.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode74.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode75.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode76.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode77.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode78.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode79.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode8.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode80.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode81.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode82.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode83.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode84.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode84.cpp	/^public class Solution {$/;"	c	file:
+Solution	LeetCode85.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode86.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode87.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode88.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode89.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode89_correct.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode9.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode90.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode90_iterative.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode92.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode93.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode94.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode95.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode96.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode97.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode98.cpp	/^class Solution {$/;"	c	file:
+Solution	LeetCode99.cpp	/^class Solution {$/;"	c	file:
+Solution	fuck.cpp	/^class Solution {$/;"	c	file:
+Solution	fuck.cpp	/^};class Solution {$/;"	c	file:
+Solution::SortedListToBST	LeetCode49.cpp	/^    TreeNode *SortedListToBST(ListNode*& node,int start,int end){$/;"	f	class:Solution	file:	access:private	signature:(ListNode*& node,int start,int end)
+Solution::addBinary	LeetCode95.cpp	/^    string addBinary(string a, string b) {$/;"	f	class:Solution	access:public	signature:(string a, string b)
+Solution::addDigits	LeetCode13.cpp	/^    int addDigits(int num) {$/;"	f	class:Solution	access:public	signature:(int num)
+Solution::addTwoNumbers	LeetCode10.cpp	/^    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {$/;"	f	class:Solution	access:public	signature:(ListNode* l1, ListNode* l2)
+Solution::addTwoNumbers	LeetCode68.cpp	/^    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {$/;"	f	class:Solution	access:public	signature:(ListNode* l1, ListNode* l2)
+Solution::arr	LeetCode40.cpp	/^arr[n] = res;$/;"	m	class:Solution	file:	access:public
+Solution::arr	LeetCode40.cpp	/^int arr[];$/;"	m	class:Solution	file:	access:public
+Solution::binaryTreePaths	LeetCode35.cpp	/^    vector<string> binaryTreePaths(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+Solution::buildTree	LeetCode46.cpp	/^    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {$/;"	f	class:Solution	access:public	signature:(vector<int>& preorder, vector<int>& inorder)
+Solution::buildTree	LeetCode48.cpp	/^    TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {$/;"	f	class:Solution	access:public	signature:(vector<int>& inorder, vector<int>& postorder)
+Solution::canConstruct	LeetCode76.cpp	/^    bool canConstruct(string ransomNote, string magazine) {$/;"	f	class:Solution	access:public	signature:(string ransomNote, string magazine)
+Solution::canFinish	LeetCode117.cpp	/^    bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites) {$/;"	f	class:Solution	access:public	signature:(int numCourses, vector<pair<int, int>>& prerequisites)
+Solution::canWinNim	LeetCode12.cpp	/^    bool canWinNim(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+Solution::clash	LeetCode105.cpp	/^    bool clash(int now, int col ,int n, vector<string>& board)$/;"	f	class:Solution	access:public	signature:(int now, int col ,int n, vector<string>& board)
+Solution::clash	LeetCode105_correct.cpp	/^    bool clash(int now, int col ,int n, vector<string>& board, vector<int> check)$/;"	f	class:Solution	access:public	signature:(int now, int col ,int n, vector<string>& board, vector<int> check)
+Solution::clash	LeetCode108.cpp	/^    bool clash(int now, int col ,int n, vector<string>& board, vector<int> check)$/;"	f	class:Solution	access:public	signature:(int now, int col ,int n, vector<string>& board, vector<int> check)
+Solution::climbStairs	LeetCode40.cpp	/^    int climbStairs(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+Solution::combinationSum	LeetCode94.cpp	/^    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {$/;"	f	class:Solution	access:public	signature:(vector<int>& candidates, int target)
+Solution::combinationSum2	LeetCode102.cpp	/^    vector<vector<int> > combinationSum2(vector<int> &num, int target)$/;"	f	class:Solution	access:public	signature:(vector<int> &num, int target)
+Solution::combinationSum2	LeetCode102.cpp	/^    vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {$/;"	f	class:Solution	access:public	signature:(vector<int>& candidates, int target)
+Solution::combinationSum3	LeetCode104.cpp	/^    vector<vector<int>> combinationSum3(int k, int n) {$/;"	f	class:Solution	access:public	signature:(int k, int n)
+Solution::combine	LeetCode92.cpp	/^        vector<vector<int>> combine(int n, int k) {$/;"	f	class:Solution	access:public	signature:(int n, int k)
+Solution::connect	LeetCode51.cpp	/^    void connect(TreeLinkNode *root) {$/;"	f	class:Solution	access:public	signature:(TreeLinkNode *root)
+Solution::containsDuplicate	LeetCode63.cpp	/^    bool containsDuplicate(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+Solution::count	LeetCode108.cpp	/^        int count = 0;$/;"	m	class:Solution	file:	access:public
+Solution::count	LeetCode116.cpp	/^    int count;$/;"	m	class:Solution	file:	access:public
+Solution::countAndSay	LeetCode79.cpp	/^    string countAndSay(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+Solution::countBits	LeetCode12.cpp	/^    vector<int> countBits(int num) {$/;"	f	class:Solution	access:public	signature:(int num)
+Solution::countNodes	LeetCode55.cpp	/^    int countNodes(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+Solution::countNumbersWithUniqueDigits	LeetCode103.cpp	/^    int countNumbersWithUniqueDigits(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+Solution::decodeString	LeetCode90.cpp	/^    string decodeString(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+Solution::decodeString	LeetCode90_iterative.cpp	/^    string decodeString(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+Solution::deleteDuplicates	LeetCode5.cpp	/^    ListNode* deleteDuplicates(ListNode* head)$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+Solution::deleteDuplicates	LeetCode58.cpp	/^        ListNode* deleteDuplicates(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+Solution::deleteDuplicates	LeetCode74.cpp	/^    ListNode* deleteDuplicates(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+Solution::detectCycle	LeetCode66.cpp	/^        ListNode *detectCycle(ListNode *head) {$/;"	f	class:Solution	access:public	signature:(ListNode *head)
+Solution::dfs	LeetCode100.cpp	/^    vector<string> dfs(int n)$/;"	f	class:Solution	access:public	signature:(int n)
+Solution::dfs	LeetCode101.cpp	/^    vector<string> dfs(int n )$/;"	f	class:Solution	access:public	signature:(int n )
+Solution::dfs	LeetCode101_right(important).cpp	/^    void dfs(int n, int left, int right, vector<string>& res, string& tmp)$/;"	f	class:Solution	access:public	signature:(int n, int left, int right, vector<string>& res, string& tmp)
+Solution::dfs	LeetCode102.cpp	/^    void dfs(int target, vector<int>& tmp, vector<vector<int>>& result,vector<int>& candidates, int begin)$/;"	f	class:Solution	access:public	signature:(int target, vector<int>& tmp, vector<vector<int>>& result,vector<int>& candidates, int begin)
+Solution::dfs	LeetCode104.cpp	/^    void dfs(int k, int n, int begin, vector<int>& tmp, vector<vector<int>>& result)$/;"	f	class:Solution	access:public	signature:(int k, int n, int begin, vector<int>& tmp, vector<vector<int>>& result)
+Solution::dfs	LeetCode105.cpp	/^    void dfs(int now, int n, vector<string>& board, vector<vector<string>>& result)$/;"	f	class:Solution	access:public	signature:(int now, int n, vector<string>& board, vector<vector<string>>& result)
+Solution::dfs	LeetCode105_correct.cpp	/^    void dfs(int now, int n, vector<string>& board, vector<vector<string>>& result, vector<int> check)$/;"	f	class:Solution	access:public	signature:(int now, int n, vector<string>& board, vector<vector<string>>& result, vector<int> check)
+Solution::dfs	LeetCode106.cpp	/^    void dfs(vector<string>& tmp, vector<string>& result, const string& s, int begin)$/;"	f	class:Solution	access:public	signature:(vector<string>& tmp, vector<string>& result, const string& s, int begin)
+Solution::dfs	LeetCode108.cpp	/^    void dfs(int now, int n, vector<string>& board, vector<vector<string>>& result, vector<int> check)$/;"	f	class:Solution	access:public	signature:(int now, int n, vector<string>& board, vector<vector<string>>& result, vector<int> check)
+Solution::dfs	LeetCode109.cpp	/^    void dfs(int start, string& s, vector<string>& tmp, vector<vector<string>>& result)$/;"	f	class:Solution	access:public	signature:(int start, string& s, vector<string>& tmp, vector<vector<string>>& result)
+Solution::dfs	LeetCode88.cpp	/^    void dfs(vector<vector<char>>& grid, int n, int m)$/;"	f	class:Solution	access:public	signature:(vector<vector<char>>& grid, int n, int m)
+Solution::dfs	LeetCode89.cpp	/^    void dfs(vector<vector<char>>& board, int i, int j)$/;"	f	class:Solution	access:public	signature:(vector<vector<char>>& board, int i, int j)
+Solution::dfs	LeetCode89_correct.cpp	/^    void dfs(vector<vector<char>>& board, int i, int j)$/;"	f	class:Solution	access:public	signature:(vector<vector<char>>& board, int i, int j)
+Solution::dfs	LeetCode90.cpp	/^    string dfs(string s, int& k)$/;"	f	class:Solution	access:public	signature:(string s, int& k)
+Solution::dfs	LeetCode96.cpp	/^    void dfs(int num, int begin, vector<string>& res, vector<int> tmp, vector<int>& rep)$/;"	f	class:Solution	access:public	signature:(int num, int begin, vector<string>& res, vector<int> tmp, vector<int>& rep)
+Solution::dfs	LeetCode98.cpp	/^    void dfs(string digits, int begin, vector<string>& result, string& s)$/;"	f	class:Solution	access:public	signature:(string digits, int begin, vector<string>& result, string& s)
+Solution::findCombination	LeetCode102.cpp	/^    void findCombination(vector<vector<int>>& res, const int order, const int target, vector<int>& local, const vector<int>& num)$/;"	f	class:Solution	access:public	signature:(vector<vector<int>>& res, const int order, const int target, vector<int>& local, const vector<int>& num)
+Solution::findTargetSumWays	LeetCode116.cpp	/^    int findTargetSumWays(vector<int>& nums, int S) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums, int S)
+Solution::findTheDifference	LeetCode29.cpp	/^    char findTheDifference(string s, string t) {$/;"	f	class:Solution	access:public	signature:(string s, string t)
+Solution::generateParenthesis	LeetCode101.cpp	/^    vector<string> generateParenthesis(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+Solution::generateParenthesis	LeetCode101_right(important).cpp	/^    vector<string> generateParenthesis(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+Solution::generateTrees	LeetCode52.cpp	/^    vector<TreeNode*> generateTrees(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+Solution::getIntersectionNode	LeetCode60.cpp	/^        ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {$/;"	f	class:Solution	access:public	signature:(ListNode *headA, ListNode *headB)
+Solution::getPermutation	LeetCode110.cpp	/^    string getPermutation(int n, int k) {$/;"	f	class:Solution	access:public	signature:(int n, int k)
+Solution::grayCode	LeetCode100.cpp	/^    vector<int> grayCode(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+Solution::hasCycle	LeetCode53.cpp	/^    bool hasCycle(ListNode *head) {$/;"	f	class:Solution	access:public	signature:(ListNode *head)
+Solution::helper	LeetCode103.cpp	/^    int helper(int n)$/;"	f	class:Solution	access:public	signature:(int n)
+Solution::helper	LeetCode107.cpp	/^    void helper(vector<int>& tmp, vector<int> nums, vector<vector<int>>& result, vector<bool> map, int count)$/;"	f	class:Solution	access:public	signature:(vector<int>& tmp, vector<int> nums, vector<vector<int>>& result, vector<bool> map, int count)
+Solution::helper	LeetCode115.cpp	/^    bool helper(vector<int>& nums, int* array, int pos, int target)$/;"	f	class:Solution	access:public	signature:(vector<int>& nums, int* array, int pos, int target)
+Solution::helper	LeetCode116.cpp	/^    void helper(vector<int>& nums, int S, int begin)$/;"	f	class:Solution	access:public	signature:(vector<int>& nums, int S, int begin)
+Solution::helper	LeetCode35.cpp	/^    void helper(TreeNode* node,string s,vector<string>& one)$/;"	f	class:Solution	access:public	signature:(TreeNode* node,string s,vector<string>& one)
+Solution::helper	LeetCode39.cpp	/^    int helper(TreeNode* root,int s)$/;"	f	class:Solution	access:public	signature:(TreeNode* root,int s)
+Solution::helper	LeetCode39.cpp	/^    void helper(TreeNode* root,int s,int& sum)$/;"	f	class:Solution	access:public	signature:(TreeNode* root,int s,int& sum)
+Solution::helper	LeetCode46.cpp	/^    TreeNode* helper(vector<int>& preorder,vector<int>& inorder,int pre_begin,int pre_end,int in_begin,int in_end)$/;"	f	class:Solution	access:public	signature:(vector<int>& preorder,vector<int>& inorder,int pre_begin,int pre_end,int in_begin,int in_end)
+Solution::helper	LeetCode48.cpp	/^    TreeNode* helper(vector<int>& inorder, vector<int>& postorder, int post_begin, int post_end, int in_begin, int in_end)$/;"	f	class:Solution	access:public	signature:(vector<int>& inorder, vector<int>& postorder, int post_begin, int post_end, int in_begin, int in_end)
+Solution::helper	LeetCode49.cpp	/^    TreeNode* helper(ListNode* head, int begin, int end)$/;"	f	class:Solution	access:public	signature:(ListNode* head, int begin, int end)
+Solution::helper	LeetCode51.cpp	/^    void helper(TreeLinkNode* root,vector<vector<TreeLinkNode*>>& res,int level)$/;"	f	class:Solution	access:public	signature:(TreeLinkNode* root,vector<vector<TreeLinkNode*>>& res,int level)
+Solution::helper	LeetCode52.cpp	/^    vector<TreeNode*> helper(int begin, int end)$/;"	f	class:Solution	access:public	signature:(int begin, int end)
+Solution::helper	LeetCode68.cpp	/^    ListNode* helper(ListNode* l1, ListNode* l2, int bit)$/;"	f	class:Solution	access:public	signature:(ListNode* l1, ListNode* l2, int bit)
+Solution::helper	LeetCode79.cpp	/^    string helper(string s)$/;"	f	class:Solution	access:public	signature:(string s)
+Solution::helper	LeetCode85.cpp	/^    void helper(int n, vector<int>& nums, vector<int> path, vector<vector<int>>& result)$/;"	f	class:Solution	access:public	signature:(int n, vector<int>& nums, vector<int> path, vector<vector<int>>& result)
+Solution::helper	LeetCode87.cpp	/^    void helper(int n, vector<int>& nums, vector<int> path, vector<vector<int>>& result\/*, unordered_map<vector<int>,bool>& dup*\/)$/;"	f	class:Solution	access:public	signature:(int n, vector<int>& nums, vector<int> path, vector<vector<int>>& result )
+Solution::helper	LeetCode92.cpp	/^        void helper(int cur, int count, int n, int k, vector<int>& path, vector<vector<int>>& result )$/;"	f	class:Solution	access:public	signature:(int cur, int count, int n, int k, vector<int>& path, vector<vector<int>>& result )
+Solution::helper	LeetCode94.cpp	/^    void helper(int bot, vector<int>& candidates, vector<int>& temp, vector<vector<int>>& res, int& sum, int target)$/;"	f	class:Solution	access:public	signature:(int bot, vector<int>& candidates, vector<int>& temp, vector<vector<int>>& res, int& sum, int target)
+Solution::helper	LeetCode96.cpp	/^    string helper(vector<int> tmp, vector<int>& rep)$/;"	f	class:Solution	access:public	signature:(vector<int> tmp, vector<int>& rep)
+Solution::helper	LeetCode97.cpp	/^    void helper(vector<int>& tmp, vector<int> nums, vector<vector<int>>& result, vector<bool> map, int count)$/;"	f	class:Solution	access:public	signature:(vector<int>& tmp, vector<int> nums, vector<vector<int>>& result, vector<bool> map, int count)
+Solution::inorderTraversal	LeetCode21.cpp	/^    vector<int> inorderTraversal(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+Solution::insertionSortList	LeetCode69.cpp	/^    ListNode* insertionSortList(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+Solution::int_to_string	LeetCode79.cpp	/^    string int_to_string(int n)$/;"	f	class:Solution	access:public	signature:(int n)
+Solution::intersection	LeetCode26.cpp	/^    vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums1, vector<int>& nums2)
+Solution::invertTree	LeetCode16.cpp	/^    TreeNode* invertTree(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+Solution::isMatch	LeetCode80.cpp	/^    bool isMatch(const char *s, const char *p)$/;"	f	class:Solution	access:public	signature:(const char *s, const char *p)
+Solution::isMatch	LeetCode80.cpp	/^    bool isMatch(string s, string p) {$/;"	f	class:Solution	access:public	signature:(string s, string p)
+Solution::isPalindrome	LeetCode111.cpp	/^    bool isPalindrome(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+Solution::isPalindrome	LeetCode61.cpp	/^    bool isPalindrome(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+Solution::isSameTree	LeetCode20.cpp	/^    bool isSameTree(TreeNode* p, TreeNode* q) {$/;"	f	class:Solution	access:public	signature:(TreeNode* p, TreeNode* q)
+Solution::isSymmetric	LeetCode23.cpp	/^    bool isSymmetric(TreeNode *p, TreeNode *q) {$/;"	f	class:Solution	access:public	signature:(TreeNode *p, TreeNode *q)
+Solution::isSymmetric	LeetCode23.cpp	/^    bool isSymmetric(TreeNode *root) {$/;"	f	class:Solution	access:public	signature:(TreeNode *root)
+Solution::isValid	LeetCode81.cpp	/^    bool isValid(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+Solution::isVowel	LeetCode78.cpp	/^    bool isVowel(char ch){$/;"	f	class:Solution	access:public	signature:(char ch)
+Solution::ispalindrome	LeetCode109.cpp	/^    bool ispalindrome(string& s, int low, int hi)$/;"	f	class:Solution	access:public	signature:(string& s, int low, int hi)
+Solution::kthSmallest	LeetCode24.cpp	/^    int kthSmallest(TreeNode* root, int k) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root, int k)
+Solution::lengthOfLastWord	LeetCode82.cpp	/^    int lengthOfLastWord(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+Solution::letterCombinations	LeetCode98.cpp	/^    vector<string> letterCombinations(string digits) {$/;"	f	class:Solution	access:public	signature:(string digits)
+Solution::levelO	LeetCode25.cpp	/^    void levelO(vector<vector<int>> &res,int level,TreeNode* p)$/;"	f	class:Solution	access:public	signature:(vector<vector<int>> &res,int level,TreeNode* p)
+Solution::levelOrder	LeetCode25.cpp	/^    vector<vector<int>> levelOrder(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+Solution::levelOrderBottom	LeetCode30.cpp	/^    vector<vector<int>> levelOrderBottom(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+Solution::longestCommonPrefix	LeetCode83.cpp	/^    string longestCommonPrefix(vector<string>& strs) {$/;"	f	class:Solution	access:public	signature:(vector<string>& strs)
+Solution::longestConsecutive	LeetCode93.cpp	/^    int longestConsecutive(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+Solution::lowestCommonAncestor	LeetCode36.cpp	/^    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root, TreeNode* p, TreeNode* q)
+Solution::lowestCommonAncestor	LeetCode54.cpp	/^    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root, TreeNode* p, TreeNode* q)
+Solution::majorityElement	LeetCode62.cpp	/^    int majorityElement(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+Solution::makesquare	LeetCode115.cpp	/^    bool makesquare(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+Solution::maxDepth	LeetCode15.cpp	/^    int maxDepth(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+Solution::merge	LeetCode99.cpp	/^    void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums1, int m, vector<int>& nums2, int n)
+Solution::mergeTwoLists	LeetCode8.cpp	/^    ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {$/;"	f	class:Solution	access:public	signature:(ListNode* l1, ListNode* l2)
+Solution::mergelist	LeetCode70.cpp	/^    ListNode* mergelist(ListNode* l_h,ListNode* r_h)$/;"	f	class:Solution	access:public	signature:(ListNode* l_h,ListNode* r_h)
+Solution::moveZeroes	LeetCode18.cpp	/^    void moveZeroes(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+Solution::myPow	LeetCode112.cpp	/^    double myPow(double x, int n) {$/;"	f	class:Solution	access:public	signature:(double x, int n)
+Solution::mySqrt	LeetCode113.cpp	/^    int mySqrt(int x) {$/;"	f	class:Solution	access:public	signature:(int x)
+Solution::numIslands	LeetCode88.cpp	/^    int numIslands(vector<vector<char>>& grid) {$/;"	f	class:Solution	access:public	signature:(vector<vector<char>>& grid)
+Solution::oddEvenList	LeetCode57.cpp	/^    ListNode* oddEvenList(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+Solution::pacificAtlantic	LeetCode114.cpp	/^    vector<pair<int, int>> pacificAtlantic(vector<vector<int>>& matrix) {$/;"	f	class:Solution	access:public	signature:(vector<vector<int>>& matrix)
+Solution::parse	LeetCode90.cpp	/^    string parse(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+Solution::partition	LeetCode109.cpp	/^    vector<vector<string>> partition(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+Solution::partition	LeetCode71.cpp	/^    ListNode* partition(ListNode* head, int x) {$/;"	f	class:Solution	access:public	signature:(ListNode* head, int x)
+Solution::permute	LeetCode97.cpp	/^    vector<vector<int> > permute(vector<int> &num) {$/;"	f	class:Solution	access:public	signature:(vector<int> &num)
+Solution::permute	LeetCode97.cpp	/^    vector<vector<int>> permute(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+Solution::permuteRecursive	LeetCode97.cpp	/^    void permuteRecursive(vector<int> &num, int begin, vector<vector<int> > &result)	{$/;"	f	class:Solution	access:public	signature:(vector<int> &num, int begin, vector<vector<int> > &result)
+Solution::permuteUnique	LeetCode107.cpp	/^    vector<vector<int>> permuteUnique(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+Solution::postorderTraversal	LeetCode22.cpp	/^    vector<int> postorderTraversal(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+Solution::preorderTraversal	LeetCode19.cpp	/^    vector<int> preorderTraversal(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+Solution::readBinaryWatch	LeetCode96.cpp	/^    vector<string> readBinaryWatch(int num) {$/;"	f	class:Solution	access:public	signature:(int num)
+Solution::removeDuplicates	LeetCode2.cpp	/^    int removeDuplicates(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+Solution::removeDuplicates	LeetCode65.cpp	/^        int removeDuplicates(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+Solution::removeDuplicates	fuck.cpp	/^    int removeDuplicates(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+Solution::removeElement	LeetCode3.cpp	/^    int removeElement(vector<int>& nums, int val) $/;"	f	class:Solution	access:public	signature:(vector<int>& nums, int val)
+Solution::removeElement	LeetCode64.cpp	/^    int removeElement(vector<int>& nums, int val) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums, int val)
+Solution::removeElements	LeetCode4.cpp	/^    ListNode* removeElements(ListNode* head, int val)$/;"	f	class:Solution	access:public	signature:(ListNode* head, int val)
+Solution::removeElements	LeetCode59.cpp	/^        ListNode* removeElements(ListNode* head, int val) {$/;"	f	class:Solution	access:public	signature:(ListNode* head, int val)
+Solution::removeNthFromEnd	LeetCode2_1.cpp	/^        ListNode* removeNthFromEnd(ListNode* head, int n) {$/;"	f	class:Solution	access:public	signature:(ListNode* head, int n)
+Solution::removeNthFromEnd	LeetCode6.cpp	/^    ListNode* removeNthFromEnd(ListNode* head, int n) {$/;"	f	class:Solution	access:public	signature:(ListNode* head, int n)
+Solution::removeNthFromEnd	LeetCode6.cpp	/^    public ListNode removeNthFromEnd(ListNode head, int n) {$/;"	f	class:Solution	access:public	signature:(ListNode head, int n)
+Solution::reorderList	LeetCode75.cpp	/^    void reorderList(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+Solution::res	LeetCode40.cpp	/^int res = climbStairs(n-1) + climbStairs(n-2);$/;"	m	class:Solution	file:	access:public
+Solution::restoreIpAddresses	LeetCode106.cpp	/^    vector<string> restoreIpAddresses(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+Solution::reverse	LeetCode61.cpp	/^    ListNode* reverse(ListNode* head)$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+Solution::reverse	LeetCode75.cpp	/^    ListNode* reverse(ListNode* head)$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+Solution::reverse	LeetCode84.cpp	/^    private void reverse(int[] nums, int start, int end) {$/;"	f	class:Solution	file:	access:private	signature:(int[] nums, int start, int end)
+Solution::reverseBetween	LeetCode72.cpp	/^    ListNode* reverseBetween(ListNode* head, int m, int n) {$/;"	f	class:Solution	access:public	signature:(ListNode* head, int m, int n)
+Solution::reverseList	LeetCode7.cpp	/^    ListNode* reverseList(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+Solution::reverseString	LeetCode11.cpp	/^    string reverseString(string s)$/;"	f	class:Solution	access:public	signature:(string s)
+Solution::reverseVowels	LeetCode78.cpp	/^    string reverseVowels(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+Solution::rob	LeetCode33.cpp	/^    int rob(TreeNode* root)$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+Solution::romanToInt	LeetCode77.cpp	/^        int romanToInt(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+Solution::rotate	LeetCode84.cpp	/^    public void rotate(int[] nums, int k) {$/;"	f	class:Solution	access:public	signature:(int[] nums, int k)
+Solution::rotate	LeetCode84.cpp	/^    void rotate(vector<int>& nums, int k) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums, int k)
+Solution::rotateRight	LeetCode67.cpp	/^    ListNode* rotateRight(ListNode* head, int k) {$/;"	f	class:Solution	access:public	signature:(ListNode* head, int k)
+Solution::s	LeetCode30.cpp	/^    void s(vector<vector<int>>& vec,int lev,TreeNode* r)$/;"	f	class:Solution	access:public	signature:(vector<vector<int>>& vec,int lev,TreeNode* r)
+Solution::search	LeetCode114.cpp	/^    void search(vector<vector<int>>& matrix, vector<vector<bool>>& ocean, int x, int y, int m, int n)$/;"	f	class:Solution	access:public	signature:(vector<vector<int>>& matrix, vector<vector<bool>>& ocean, int x, int y, int m, int n)
+Solution::singleNumber	LeetCode17.cpp	/^    vector<int> singleNumber(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+Solution::solve	LeetCode89.cpp	/^    void solve(vector<vector<char>>& board) {$/;"	f	class:Solution	access:public	signature:(vector<vector<char>>& board)
+Solution::solve	LeetCode89_correct.cpp	/^    void solve(vector<vector<char>>& board) {$/;"	f	class:Solution	access:public	signature:(vector<vector<char>>& board)
+Solution::solveNQueens	LeetCode105.cpp	/^    vector<vector<string>> solveNQueens(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+Solution::solveNQueens	LeetCode105_correct.cpp	/^    vector<vector<string>> solveNQueens(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+Solution::sortList	LeetCode70.cpp	/^    ListNode* sortList(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+Solution::sortedListToBST	LeetCode49.cpp	/^    TreeNode *sortedListToBST(ListNode *head){$/;"	f	class:Solution	access:public	signature:(ListNode *head)
+Solution::sortedListToBST	LeetCode49.cpp	/^    TreeNode* sortedListToBST(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+Solution::subsets	LeetCode85.cpp	/^    vector<vector<int>> subsets(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+Solution::subsetsWithDup	LeetCode87.cpp	/^    vector<vector<int>> subsetsWithDup(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+Solution::sumNumbers	LeetCode39.cpp	/^    int sumNumbers(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+Solution::swapPairs	LeetCode2_2.cpp	/^        ListNode* swapPairs(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+Solution::swapPairs	LeetCode9.cpp	/^    ListNode* swapPairs(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+Solution::totalNQueens	LeetCode108.cpp	/^        int totalNQueens(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+Solution::translate	LeetCode100.cpp	/^    void translate(vector<int>& result, vector<string>& res)$/;"	f	class:Solution	access:public	signature:(vector<int>& result, vector<string>& res)
+Solution::twoSum	LeetCode1.cpp	/^    vector<int> twoSum(vector<int>& num, int target) $/;"	f	class:Solution	access:public	signature:(vector<int>& num, int target)
+Solution::twoSum	LeetCode14.cpp	/^    vector<int> twoSum(vector<int>& numbers, int target) {$/;"	f	class:Solution	access:public	signature:(vector<int>& numbers, int target)
+Solution::twoSum	LeetCode86.cpp	/^    vector<int> twoSum(vector<int>& nums, int target) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums, int target)
+Solution::twoSum	fuck.cpp	/^    vector<int> twoSum(vector<int>& num, int target) $/;"	f	class:Solution	access:public	signature:(vector<int>& num, int target)
+Solution::value	LeetCode33.cpp	/^    int value(TreeNode* root,map<TreeNode*,int>& cash)$/;"	f	class:Solution	access:public	signature:(TreeNode* root,map<TreeNode*,int>& cash)
+Solution::vec	LeetCode98.cpp	/^    vector<vector<char>> vec = {vec_2, vec_3, vec_4, vec_5, vec_6, vec_7, vec_8, vec_9};$/;"	m	class:Solution	file:	access:public
+Solution::vec_2	LeetCode98.cpp	/^    vector<char> vec_2 = {'a', 'b', 'c'};$/;"	m	class:Solution	file:	access:public
+Solution::vec_3	LeetCode98.cpp	/^    vector<char> vec_3 = {'d', 'e', 'f'};$/;"	m	class:Solution	file:	access:public
+Solution::vec_4	LeetCode98.cpp	/^    vector<char> vec_4 = {'g', 'h', 'i'};$/;"	m	class:Solution	file:	access:public
+Solution::vec_5	LeetCode98.cpp	/^    vector<char> vec_5 = {'j', 'k', 'l'};$/;"	m	class:Solution	file:	access:public
+Solution::vec_6	LeetCode98.cpp	/^    vector<char> vec_6 = {'m', 'n', 'o'};$/;"	m	class:Solution	file:	access:public
+Solution::vec_7	LeetCode98.cpp	/^    vector<char> vec_7 = {'p', 'q', 'r', 's'};$/;"	m	class:Solution	file:	access:public
+Solution::vec_8	LeetCode98.cpp	/^    vector<char> vec_8 = {'t', 'u', 'v'};$/;"	m	class:Solution	file:	access:public
+Solution::vec_9	LeetCode98.cpp	/^    vector<char> vec_9 = {'w', 'x', 'y', 'z'};$/;"	m	class:Solution	file:	access:public
+Solution::whereis	LeetCode54.cpp	/^    int whereis(TreeNode* root, TreeNode* p)$/;"	f	class:Solution	access:public	signature:(TreeNode* root, TreeNode* p)
+Solution::x_label	LeetCode114.cpp	/^    vector<int> x_label = {0, 0, -1, 1};$/;"	m	class:Solution	file:	access:public
+Solution::y_label	LeetCode114.cpp	/^    vector<int> y_label = {-1, 1, 0, 0};$/;"	m	class:Solution	file:	access:public
+Solution::zigzag	LeetCode31.cpp	/^              void zigzag(TreeNode* r,int level,vector<vector<int>>& res,bool ltr)$/;"	f	class:Solution	access:public	signature:(TreeNode* r,int level,vector<vector<int>>& res,bool ltr)
+Solution::zigzagLevelOrder	LeetCode31.cpp	/^           vector<vector<int>> zigzagLevelOrder(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+SortedListToBST	LeetCode49.cpp	/^    TreeNode *SortedListToBST(ListNode*& node,int start,int end){$/;"	f	class:Solution	file:	access:private	signature:(ListNode*& node,int start,int end)
+TreeNode	LeetCode31.cpp	/^     *     *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode	access:public	signature:(int x)
+TreeNode	LeetCode31.cpp	/^ * struct TreeNode {$/;"	s	file:
+TreeNode::TreeNode	LeetCode31.cpp	/^     *     *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode	access:public	signature:(int x)
+TreeNode::left	LeetCode31.cpp	/^     *   *     TreeNode *left;$/;"	m	struct:TreeNode	file:	access:public
+TreeNode::right	LeetCode31.cpp	/^     *    *     TreeNode *right;$/;"	m	struct:TreeNode	file:	access:public
+TreeNode::val	LeetCode31.cpp	/^     *  *     int val;$/;"	m	struct:TreeNode	file:	access:public
+addBinary	LeetCode95.cpp	/^    string addBinary(string a, string b) {$/;"	f	class:Solution	access:public	signature:(string a, string b)
+addDigits	LeetCode13.cpp	/^    int addDigits(int num) {$/;"	f	class:Solution	access:public	signature:(int num)
+addTwoNumbers	LeetCode10.cpp	/^    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {$/;"	f	class:Solution	access:public	signature:(ListNode* l1, ListNode* l2)
+addTwoNumbers	LeetCode68.cpp	/^    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {$/;"	f	class:Solution	access:public	signature:(ListNode* l1, ListNode* l2)
+anchorSpot	vimium/test_harnesses/page_with_links.html	/^  <a name="anchorSpot">An anchor with just a name<\/a>$/;"	a
+arr	LeetCode40.cpp	/^arr[n] = res;$/;"	m	class:Solution	file:	access:public
+arr	LeetCode40.cpp	/^int arr[];$/;"	m	class:Solution	file:	access:public
+binaryTreePaths	LeetCode35.cpp	/^    vector<string> binaryTreePaths(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+bowl	LeetCode50.cpp	/^    vector<TreeNode*> bowl;$/;"	m	class:BSTIterator	file:	access:public
+buildTree	LeetCode46.cpp	/^    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {$/;"	f	class:Solution	access:public	signature:(vector<int>& preorder, vector<int>& inorder)
+buildTree	LeetCode48.cpp	/^    TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {$/;"	f	class:Solution	access:public	signature:(vector<int>& inorder, vector<int>& postorder)
+canConstruct	LeetCode76.cpp	/^    bool canConstruct(string ransomNote, string magazine) {$/;"	f	class:Solution	access:public	signature:(string ransomNote, string magazine)
+canFinish	LeetCode117.cpp	/^    bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites) {$/;"	f	class:Solution	access:public	signature:(int numCourses, vector<pair<int, int>>& prerequisites)
+canWinNim	LeetCode12.cpp	/^    bool canWinNim(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+checkDivsForVisibility	vimium/test_harnesses/visibility_test.html	/^    function checkDivsForVisibility() {$/;"	f
+clash	LeetCode105.cpp	/^    bool clash(int now, int col ,int n, vector<string>& board)$/;"	f	class:Solution	access:public	signature:(int now, int col ,int n, vector<string>& board)
+clash	LeetCode105_correct.cpp	/^    bool clash(int now, int col ,int n, vector<string>& board, vector<int> check)$/;"	f	class:Solution	access:public	signature:(int now, int col ,int n, vector<string>& board, vector<int> check)
+clash	LeetCode108.cpp	/^    bool clash(int now, int col ,int n, vector<string>& board, vector<int> check)$/;"	f	class:Solution	access:public	signature:(int now, int col ,int n, vector<string>& board, vector<int> check)
+climb	climbstairs.cpp	/^    void climb(int level)$/;"	f	signature:(int level)
+climbStairs	LeetCode40.cpp	/^    int climbStairs(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+combinationSum	LeetCode94.cpp	/^    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {$/;"	f	class:Solution	access:public	signature:(vector<int>& candidates, int target)
+combinationSum2	LeetCode102.cpp	/^    vector<vector<int> > combinationSum2(vector<int> &num, int target)$/;"	f	class:Solution	access:public	signature:(vector<int> &num, int target)
+combinationSum2	LeetCode102.cpp	/^    vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {$/;"	f	class:Solution	access:public	signature:(vector<int>& candidates, int target)
+combinationSum3	LeetCode104.cpp	/^    vector<vector<int>> combinationSum3(int k, int n) {$/;"	f	class:Solution	access:public	signature:(int k, int n)
+combine	LeetCode92.cpp	/^        vector<vector<int>> combine(int n, int k) {$/;"	f	class:Solution	access:public	signature:(int n, int k)
+connect	LeetCode43.cpp	/^void connect(TreeLinkNode *root) {$/;"	f	signature:(TreeLinkNode *root)
+connect	LeetCode43.cpp	/^void connect(TreeLinkNode* root)$/;"	f	signature:(TreeLinkNode* root)
+connect	LeetCode43.cpp	/^void connect(TreeLinkNode* root,TreeLinkNode* subling)$/;"	f	signature:(TreeLinkNode* root,TreeLinkNode* subling)
+connect	LeetCode51.cpp	/^    void connect(TreeLinkNode *root) {$/;"	f	class:Solution	access:public	signature:(TreeLinkNode *root)
+connect	LeetCode51.cpp	/^void connect(TreeLinkNode *root) {$/;"	f	signature:(TreeLinkNode *root)
+containsDuplicate	LeetCode63.cpp	/^    bool containsDuplicate(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+count	LeetCode108.cpp	/^        int count = 0;$/;"	m	class:Solution	file:	access:public
+count	LeetCode116.cpp	/^    int count;$/;"	m	class:Solution	file:	access:public
+countAndSay	LeetCode79.cpp	/^    string countAndSay(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+countBits	LeetCode12.cpp	/^    vector<int> countBits(int num) {$/;"	f	class:Solution	access:public	signature:(int num)
+countNodes	LeetCode55.cpp	/^    int countNodes(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+countNumbersWithUniqueDigits	LeetCode103.cpp	/^    int countNumbersWithUniqueDigits(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+decodeString	LeetCode90.cpp	/^    string decodeString(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+decodeString	LeetCode90_iterative.cpp	/^    string decodeString(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+deleteDuplicates	LeetCode5.cpp	/^    ListNode* deleteDuplicates(ListNode* head)$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+deleteDuplicates	LeetCode58.cpp	/^        ListNode* deleteDuplicates(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+deleteDuplicates	LeetCode74.cpp	/^    ListNode* deleteDuplicates(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+deserialize	LeetCode56.cpp	/^    TreeNode* deserialize(string data) {$/;"	f	class:Codec	access:public	signature:(string data)
+detectCycle	LeetCode66.cpp	/^        ListNode *detectCycle(ListNode *head) {$/;"	f	class:Solution	access:public	signature:(ListNode *head)
+dfs	LeetCode100.cpp	/^    vector<string> dfs(int n)$/;"	f	class:Solution	access:public	signature:(int n)
+dfs	LeetCode101.cpp	/^    vector<string> dfs(int n )$/;"	f	class:Solution	access:public	signature:(int n )
+dfs	LeetCode101_right(important).cpp	/^    void dfs(int n, int left, int right, vector<string>& res, string& tmp)$/;"	f	class:Solution	access:public	signature:(int n, int left, int right, vector<string>& res, string& tmp)
+dfs	LeetCode102.cpp	/^    void dfs(int target, vector<int>& tmp, vector<vector<int>>& result,vector<int>& candidates, int begin)$/;"	f	class:Solution	access:public	signature:(int target, vector<int>& tmp, vector<vector<int>>& result,vector<int>& candidates, int begin)
+dfs	LeetCode104.cpp	/^    void dfs(int k, int n, int begin, vector<int>& tmp, vector<vector<int>>& result)$/;"	f	class:Solution	access:public	signature:(int k, int n, int begin, vector<int>& tmp, vector<vector<int>>& result)
+dfs	LeetCode105.cpp	/^    void dfs(int now, int n, vector<string>& board, vector<vector<string>>& result)$/;"	f	class:Solution	access:public	signature:(int now, int n, vector<string>& board, vector<vector<string>>& result)
+dfs	LeetCode105_correct.cpp	/^    void dfs(int now, int n, vector<string>& board, vector<vector<string>>& result, vector<int> check)$/;"	f	class:Solution	access:public	signature:(int now, int n, vector<string>& board, vector<vector<string>>& result, vector<int> check)
+dfs	LeetCode106.cpp	/^    void dfs(vector<string>& tmp, vector<string>& result, const string& s, int begin)$/;"	f	class:Solution	access:public	signature:(vector<string>& tmp, vector<string>& result, const string& s, int begin)
+dfs	LeetCode108.cpp	/^    void dfs(int now, int n, vector<string>& board, vector<vector<string>>& result, vector<int> check)$/;"	f	class:Solution	access:public	signature:(int now, int n, vector<string>& board, vector<vector<string>>& result, vector<int> check)
+dfs	LeetCode109.cpp	/^    void dfs(int start, string& s, vector<string>& tmp, vector<vector<string>>& result)$/;"	f	class:Solution	access:public	signature:(int start, string& s, vector<string>& tmp, vector<vector<string>>& result)
+dfs	LeetCode88.cpp	/^    void dfs(vector<vector<char>>& grid, int n, int m)$/;"	f	class:Solution	access:public	signature:(vector<vector<char>>& grid, int n, int m)
+dfs	LeetCode89.cpp	/^    void dfs(vector<vector<char>>& board, int i, int j)$/;"	f	class:Solution	access:public	signature:(vector<vector<char>>& board, int i, int j)
+dfs	LeetCode89_correct.cpp	/^    void dfs(vector<vector<char>>& board, int i, int j)$/;"	f	class:Solution	access:public	signature:(vector<vector<char>>& board, int i, int j)
+dfs	LeetCode90.cpp	/^    string dfs(string s, int& k)$/;"	f	class:Solution	access:public	signature:(string s, int& k)
+dfs	LeetCode96.cpp	/^    void dfs(int num, int begin, vector<string>& res, vector<int> tmp, vector<int>& rep)$/;"	f	class:Solution	access:public	signature:(int num, int begin, vector<string>& res, vector<int> tmp, vector<int>& rep)
+dfs	LeetCode98.cpp	/^    void dfs(string digits, int begin, vector<string>& result, string& s)$/;"	f	class:Solution	access:public	signature:(string digits, int begin, vector<string>& result, string& s)
+displayTests	vimium/test_harnesses/visibility_test.html	/^    function displayTests() {$/;"	f
+empty	LeetCode27.cpp	/^    bool empty() {$/;"	f	signature:()
+empty	LeetCode28.cpp	/^    bool empty(void) {$/;"	f	signature:(void)
+example	LeetCode73.cpp	/^How do we find these two elements? For example, we have the following tree that is printed as in order traversal:$/;"	v
+fNOP	vimium/tests/dom_tests/bind.js	/^    fNOP.prototype = this.prototype;$/;"	c
+findCombination	LeetCode102.cpp	/^    void findCombination(vector<vector<int>>& res, const int order, const int target, vector<int>& local, const vector<int>& num)$/;"	f	class:Solution	access:public	signature:(vector<vector<int>>& res, const int order, const int target, vector<int>& local, const vector<int>& num)
+findTargetSumWays	LeetCode116.cpp	/^    int findTargetSumWays(vector<int>& nums, int S) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums, int S)
+findTheDifference	LeetCode29.cpp	/^    char findTheDifference(string s, string t) {$/;"	f	class:Solution	access:public	signature:(string s, string t)
+firstvalue	LeetCode28.cpp	/^    int firstvalue;$/;"	v
+flatten	LeetCode47.cpp	/^    void flatten(TreeNode* root) {$/;"	f	signature:(TreeNode* root)
+fun	tst.c	/^int fun(int n)$/;"	f	signature:(int n)
+generateParenthesis	LeetCode101.cpp	/^    vector<string> generateParenthesis(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+generateParenthesis	LeetCode101_right(important).cpp	/^    vector<string> generateParenthesis(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+generateTrees	LeetCode52.cpp	/^    vector<TreeNode*> generateTrees(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+getIntersectionNode	LeetCode60.cpp	/^        ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {$/;"	f	class:Solution	access:public	signature:(ListNode *headA, ListNode *headB)
+getNext	LeetCode51.cpp	/^TreeLinkNode *getNext(TreeLinkNode *root, TreeLinkNode *left, bool isLeft) {$/;"	f	signature:(TreeLinkNode *root, TreeLinkNode *left, bool isLeft)
+getPermutation	LeetCode110.cpp	/^    string getPermutation(int n, int k) {$/;"	f	class:Solution	access:public	signature:(int n, int k)
+grayCode	LeetCode100.cpp	/^    vector<int> grayCode(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+hasCycle	LeetCode53.cpp	/^    bool hasCycle(ListNode *head) {$/;"	f	class:Solution	access:public	signature:(ListNode *head)
+hasNext	LeetCode50.cpp	/^    bool hasNext() {$/;"	f	class:BSTIterator	access:public	signature:()
+hasPathSum	LeetCode34.cpp	/^bool hasPathSum(TreeNode* root, int sum) {$/;"	f	signature:(TreeNode* root, int sum)
+helper	LeetCode103.cpp	/^    int helper(int n)$/;"	f	class:Solution	access:public	signature:(int n)
+helper	LeetCode107.cpp	/^    void helper(vector<int>& tmp, vector<int> nums, vector<vector<int>>& result, vector<bool> map, int count)$/;"	f	class:Solution	access:public	signature:(vector<int>& tmp, vector<int> nums, vector<vector<int>>& result, vector<bool> map, int count)
+helper	LeetCode115.cpp	/^    bool helper(vector<int>& nums, int* array, int pos, int target)$/;"	f	class:Solution	access:public	signature:(vector<int>& nums, int* array, int pos, int target)
+helper	LeetCode116.cpp	/^    void helper(vector<int>& nums, int S, int begin)$/;"	f	class:Solution	access:public	signature:(vector<int>& nums, int S, int begin)
+helper	LeetCode35.cpp	/^    void helper(TreeNode* node,string s,vector<string>& one)$/;"	f	class:Solution	access:public	signature:(TreeNode* node,string s,vector<string>& one)
+helper	LeetCode37.cpp	/^void helper(TreeNode* root,vector<int> data,int level)$/;"	f	signature:(TreeNode* root,vector<int> data,int level)
+helper	LeetCode39.cpp	/^    int helper(TreeNode* root,int s)$/;"	f	class:Solution	access:public	signature:(TreeNode* root,int s)
+helper	LeetCode39.cpp	/^    void helper(TreeNode* root,int s,int& sum)$/;"	f	class:Solution	access:public	signature:(TreeNode* root,int s,int& sum)
+helper	LeetCode42.cpp	/^void helper(TreeNode* root,int sum,vector<int> curr,vector<vector<int>>& res)$/;"	f	signature:(TreeNode* root,int sum,vector<int> curr,vector<vector<int>>& res)
+helper	LeetCode43.cpp	/^void helper(TreeLinkNode* root,vector<vector<TreeLinkNode*>>& res,int level)$/;"	f	signature:(TreeLinkNode* root,vector<vector<TreeLinkNode*>>& res,int level)
+helper	LeetCode44.cpp	/^bool helper(TreeNode* root,long low,long high)$/;"	f	signature:(TreeNode* root,long low,long high)
+helper	LeetCode45.cpp	/^void helper(TreeNode* root,vector<vector<LinkNode*>>& res,int level)$/;"	f	signature:(TreeNode* root,vector<vector<LinkNode*>>& res,int level)
+helper	LeetCode46.cpp	/^    TreeNode* helper(vector<int>& preorder,vector<int>& inorder,int pre_begin,int pre_end,int in_begin,int in_end)$/;"	f	class:Solution	access:public	signature:(vector<int>& preorder,vector<int>& inorder,int pre_begin,int pre_end,int in_begin,int in_end)
+helper	LeetCode48.cpp	/^    TreeNode* helper(vector<int>& inorder, vector<int>& postorder, int post_begin, int post_end, int in_begin, int in_end)$/;"	f	class:Solution	access:public	signature:(vector<int>& inorder, vector<int>& postorder, int post_begin, int post_end, int in_begin, int in_end)
+helper	LeetCode49.cpp	/^    TreeNode* helper(ListNode* head, int begin, int end)$/;"	f	class:Solution	access:public	signature:(ListNode* head, int begin, int end)
+helper	LeetCode51.cpp	/^    void helper(TreeLinkNode* root,vector<vector<TreeLinkNode*>>& res,int level)$/;"	f	class:Solution	access:public	signature:(TreeLinkNode* root,vector<vector<TreeLinkNode*>>& res,int level)
+helper	LeetCode52.cpp	/^    vector<TreeNode*> helper(int begin, int end)$/;"	f	class:Solution	access:public	signature:(int begin, int end)
+helper	LeetCode68.cpp	/^    ListNode* helper(ListNode* l1, ListNode* l2, int bit)$/;"	f	class:Solution	access:public	signature:(ListNode* l1, ListNode* l2, int bit)
+helper	LeetCode79.cpp	/^    string helper(string s)$/;"	f	class:Solution	access:public	signature:(string s)
+helper	LeetCode85.cpp	/^    void helper(int n, vector<int>& nums, vector<int> path, vector<vector<int>>& result)$/;"	f	class:Solution	access:public	signature:(int n, vector<int>& nums, vector<int> path, vector<vector<int>>& result)
+helper	LeetCode87.cpp	/^    void helper(int n, vector<int>& nums, vector<int> path, vector<vector<int>>& result\/*, unordered_map<vector<int>,bool>& dup*\/)$/;"	f	class:Solution	access:public	signature:(int n, vector<int>& nums, vector<int> path, vector<vector<int>>& result )
+helper	LeetCode92.cpp	/^        void helper(int cur, int count, int n, int k, vector<int>& path, vector<vector<int>>& result )$/;"	f	class:Solution	access:public	signature:(int cur, int count, int n, int k, vector<int>& path, vector<vector<int>>& result )
+helper	LeetCode94.cpp	/^    void helper(int bot, vector<int>& candidates, vector<int>& temp, vector<vector<int>>& res, int& sum, int target)$/;"	f	class:Solution	access:public	signature:(int bot, vector<int>& candidates, vector<int>& temp, vector<vector<int>>& res, int& sum, int target)
+helper	LeetCode96.cpp	/^    string helper(vector<int> tmp, vector<int>& rep)$/;"	f	class:Solution	access:public	signature:(vector<int> tmp, vector<int>& rep)
+helper	LeetCode97.cpp	/^    void helper(vector<int>& tmp, vector<int> nums, vector<vector<int>>& result, vector<bool> map, int count)$/;"	f	class:Solution	access:public	signature:(vector<int>& tmp, vector<int> nums, vector<vector<int>>& result, vector<bool> map, int count)
+index	LeetCode50.cpp	/^    int index = 0;$/;"	m	class:BSTIterator	file:	access:public
+inorderTraversal	LeetCode21.cpp	/^    vector<int> inorderTraversal(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+insertionSortList	LeetCode69.cpp	/^    ListNode* insertionSortList(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+int_to_string	LeetCode79.cpp	/^    string int_to_string(int n)$/;"	f	class:Solution	access:public	signature:(int n)
+intersection	LeetCode26.cpp	/^    vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums1, vector<int>& nums2)
+invertTree	LeetCode16.cpp	/^    TreeNode* invertTree(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+isBalanced	LeetCode32.cpp	/^bool isBalanced(TreeNode* root) {$/;"	f	signature:(TreeNode* root)
+isMatch	LeetCode80.cpp	/^    bool isMatch(const char *s, const char *p)$/;"	f	class:Solution	access:public	signature:(const char *s, const char *p)
+isMatch	LeetCode80.cpp	/^    bool isMatch(string s, string p) {$/;"	f	class:Solution	access:public	signature:(string s, string p)
+isPalindrome	LeetCode111.cpp	/^    bool isPalindrome(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+isPalindrome	LeetCode61.cpp	/^    bool isPalindrome(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+isSameTree	LeetCode20.cpp	/^    bool isSameTree(TreeNode* p, TreeNode* q) {$/;"	f	class:Solution	access:public	signature:(TreeNode* p, TreeNode* q)
+isSymmetric	LeetCode23.cpp	/^    bool isSymmetric(TreeNode *p, TreeNode *q) {$/;"	f	class:Solution	access:public	signature:(TreeNode *p, TreeNode *q)
+isSymmetric	LeetCode23.cpp	/^    bool isSymmetric(TreeNode *root) {$/;"	f	class:Solution	access:public	signature:(TreeNode *root)
+isValid	LeetCode81.cpp	/^    bool isValid(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+isValidBST	LeetCode44.cpp	/^bool isValidBST(TreeNode* root)$/;"	f	signature:(TreeNode* root)
+isVowel	LeetCode78.cpp	/^    bool isVowel(char ch){$/;"	f	class:Solution	access:public	signature:(char ch)
+ispalindrome	LeetCode109.cpp	/^    bool ispalindrome(string& s, int low, int hi)$/;"	f	class:Solution	access:public	signature:(string& s, int low, int hi)
+kthSmallest	LeetCode24.cpp	/^    int kthSmallest(TreeNode* root, int k) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root, int k)
+left	LeetCode31.cpp	/^     *   *     TreeNode *left;$/;"	m	struct:TreeNode	file:	access:public
+lengthOfLastWord	LeetCode82.cpp	/^    int lengthOfLastWord(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+letterCombinations	LeetCode98.cpp	/^    vector<string> letterCombinations(string digits) {$/;"	f	class:Solution	access:public	signature:(string digits)
+levelO	LeetCode25.cpp	/^    void levelO(vector<vector<int>> &res,int level,TreeNode* p)$/;"	f	class:Solution	access:public	signature:(vector<vector<int>> &res,int level,TreeNode* p)
+levelOrder	LeetCode25.cpp	/^    vector<vector<int>> levelOrder(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+levelOrderBottom	LeetCode30.cpp	/^    vector<vector<int>> levelOrderBottom(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+longestCommonPrefix	LeetCode83.cpp	/^    string longestCommonPrefix(vector<string>& strs) {$/;"	f	class:Solution	access:public	signature:(vector<string>& strs)
+longestConsecutive	LeetCode93.cpp	/^    int longestConsecutive(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+lowestCommonAncestor	LeetCode36.cpp	/^    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root, TreeNode* p, TreeNode* q)
+lowestCommonAncestor	LeetCode54.cpp	/^    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root, TreeNode* p, TreeNode* q)
+main	client.cpp	/^int main(){$/;"	f	signature:()
+main	hoststruct.c	/^int main()$/;"	f
+main	server.cpp	/^int main(){$/;"	f	signature:()
+main	tst.c	/^int main()$/;"	f
+main	ttest.cpp	/^int main()$/;"	f	signature:()
+majorityElement	LeetCode62.cpp	/^    int majorityElement(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+makeBoolTd	vimium/test_harnesses/visibility_test.html	/^    function makeBoolTd(bool) {$/;"	f
+makeTag	vimium/test_harnesses/visibility_test.html	/^    function makeTag(tag, text) {$/;"	f
+makesquare	LeetCode115.cpp	/^    bool makesquare(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+maxDepth	LeetCode15.cpp	/^    int maxDepth(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+merge	LeetCode99.cpp	/^    void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums1, int m, vector<int>& nums2, int n)
+mergeTwoLists	LeetCode8.cpp	/^    ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {$/;"	f	class:Solution	access:public	signature:(ListNode* l1, ListNode* l2)
+mergelist	LeetCode70.cpp	/^    ListNode* mergelist(ListNode* l_h,ListNode* r_h)$/;"	f	class:Solution	access:public	signature:(ListNode* l_h,ListNode* r_h)
+minDepth	LeetCode38.cpp	/^int minDepth(TreeNode* root){$/;"	f	signature:(TreeNode* root)
+moveZeroes	LeetCode18.cpp	/^    void moveZeroes(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+myPow	LeetCode112.cpp	/^    double myPow(double x, int n) {$/;"	f	class:Solution	access:public	signature:(double x, int n)
+mySqrt	LeetCode113.cpp	/^    int mySqrt(int x) {$/;"	f	class:Solution	access:public	signature:(int x)
+next	LeetCode50.cpp	/^    int next() {$/;"	f	class:BSTIterator	access:public	signature:()
+numIslands	LeetCode88.cpp	/^    int numIslands(vector<vector<char>>& grid) {$/;"	f	class:Solution	access:public	signature:(vector<vector<char>>& grid)
+oddEvenList	LeetCode57.cpp	/^    ListNode* oddEvenList(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+pacificAtlantic	LeetCode114.cpp	/^    vector<pair<int, int>> pacificAtlantic(vector<vector<int>>& matrix) {$/;"	f	class:Solution	access:public	signature:(vector<vector<int>>& matrix)
+parse	LeetCode90.cpp	/^    string parse(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+partition	LeetCode109.cpp	/^    vector<vector<string>> partition(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+partition	LeetCode71.cpp	/^    ListNode* partition(ListNode* head, int x) {$/;"	f	class:Solution	access:public	signature:(ListNode* head, int x)
+pathSum	LeetCode42.cpp	/^vector<vector<int>> pathSum(TreeNode* root, int sum) {$/;"	f	signature:(TreeNode* root, int sum)
+peek	LeetCode28.cpp	/^    int peek(void) {$/;"	f	signature:(void)
+permute	LeetCode97.cpp	/^    vector<vector<int> > permute(vector<int> &num) {$/;"	f	class:Solution	access:public	signature:(vector<int> &num)
+permute	LeetCode97.cpp	/^    vector<vector<int>> permute(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+permuteRecursive	LeetCode97.cpp	/^    void permuteRecursive(vector<int> &num, int begin, vector<vector<int> > &result)	{$/;"	f	class:Solution	access:public	signature:(vector<int> &num, int begin, vector<vector<int> > &result)
+permuteUnique	LeetCode107.cpp	/^    vector<vector<int>> permuteUnique(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+pop	LeetCode27.cpp	/^    void pop() {$/;"	f	signature:()
+pop	LeetCode28.cpp	/^    void pop(void) {$/;"	f	signature:(void)
+postorderTraversal	LeetCode22.cpp	/^    vector<int> postorderTraversal(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+preorderTraversal	LeetCode19.cpp	/^    vector<int> preorderTraversal(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+push	LeetCode27.cpp	/^    void push(int x) {$/;"	f	signature:(int x)
+push	LeetCode28.cpp	/^    void push(int x) {$/;"	f	signature:(int x)
+readBinaryWatch	LeetCode96.cpp	/^    vector<string> readBinaryWatch(int num) {$/;"	f	class:Solution	access:public	signature:(int num)
+removeDuplicates	LeetCode2.cpp	/^    int removeDuplicates(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+removeDuplicates	LeetCode65.cpp	/^        int removeDuplicates(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+removeDuplicates	fuck.cpp	/^    int removeDuplicates(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+removeElement	LeetCode3.cpp	/^    int removeElement(vector<int>& nums, int val) $/;"	f	class:Solution	access:public	signature:(vector<int>& nums, int val)
+removeElement	LeetCode64.cpp	/^    int removeElement(vector<int>& nums, int val) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums, int val)
+removeElements	LeetCode4.cpp	/^    ListNode* removeElements(ListNode* head, int val)$/;"	f	class:Solution	access:public	signature:(ListNode* head, int val)
+removeElements	LeetCode59.cpp	/^        ListNode* removeElements(ListNode* head, int val) {$/;"	f	class:Solution	access:public	signature:(ListNode* head, int val)
+removeNthFromEnd	LeetCode2_1.cpp	/^        ListNode* removeNthFromEnd(ListNode* head, int n) {$/;"	f	class:Solution	access:public	signature:(ListNode* head, int n)
+removeNthFromEnd	LeetCode6.cpp	/^    ListNode* removeNthFromEnd(ListNode* head, int n) {$/;"	f	class:Solution	access:public	signature:(ListNode* head, int n)
+removeNthFromEnd	LeetCode6.cpp	/^    public ListNode removeNthFromEnd(ListNode head, int n) {$/;"	f	class:Solution	access:public	signature:(ListNode head, int n)
+reorderList	LeetCode75.cpp	/^    void reorderList(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+res	LeetCode40.cpp	/^int res = climbStairs(n-1) + climbStairs(n-2);$/;"	m	class:Solution	file:	access:public
+restoreIpAddresses	LeetCode106.cpp	/^    vector<string> restoreIpAddresses(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+result	climbstairs.cpp	/^    uint result;$/;"	v
+reverse	LeetCode61.cpp	/^    ListNode* reverse(ListNode* head)$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+reverse	LeetCode75.cpp	/^    ListNode* reverse(ListNode* head)$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+reverse	LeetCode84.cpp	/^    private void reverse(int[] nums, int start, int end) {$/;"	f	class:Solution	file:	access:private	signature:(int[] nums, int start, int end)
+reverseBetween	LeetCode72.cpp	/^    ListNode* reverseBetween(ListNode* head, int m, int n) {$/;"	f	class:Solution	access:public	signature:(ListNode* head, int m, int n)
+reverseList	LeetCode7.cpp	/^    ListNode* reverseList(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+reverseString	LeetCode11.cpp	/^    string reverseString(string s)$/;"	f	class:Solution	access:public	signature:(string s)
+reverseVowels	LeetCode78.cpp	/^    string reverseVowels(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+right	LeetCode31.cpp	/^     *    *     TreeNode *right;$/;"	m	struct:TreeNode	file:	access:public
+rightSideView	LeetCode45.cpp	/^vector<int> rightSideView(TreeNode* root) {$/;"	f	signature:(TreeNode* root)
+rob	LeetCode33.cpp	/^    int rob(TreeNode* root)$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+romanToInt	LeetCode77.cpp	/^        int romanToInt(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+rotate	LeetCode84.cpp	/^    public void rotate(int[] nums, int k) {$/;"	f	class:Solution	access:public	signature:(int[] nums, int k)
+rotate	LeetCode84.cpp	/^    void rotate(vector<int>& nums, int k) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums, int k)
+rotateRight	LeetCode67.cpp	/^    ListNode* rotateRight(ListNode* head, int k) {$/;"	f	class:Solution	access:public	signature:(ListNode* head, int k)
+s	LeetCode30.cpp	/^    void s(vector<vector<int>>& vec,int lev,TreeNode* r)$/;"	f	class:Solution	access:public	signature:(vector<vector<int>>& vec,int lev,TreeNode* r)
+search	LeetCode114.cpp	/^    void search(vector<vector<int>>& matrix, vector<vector<bool>>& ocean, int x, int y, int m, int n)$/;"	f	class:Solution	access:public	signature:(vector<vector<int>>& matrix, vector<vector<bool>>& ocean, int x, int y, int m, int n)
+serialize	LeetCode56.cpp	/^    string serialize(TreeNode* root) {$/;"	f	class:Codec	access:public	signature:(TreeNode* root)
+setup	vimium/test_harnesses/vomnibar.html	/^    function setup() {$/;"	f
+singleNumber	LeetCode17.cpp	/^    vector<int> singleNumber(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+solve	LeetCode89.cpp	/^    void solve(vector<vector<char>>& board) {$/;"	f	class:Solution	access:public	signature:(vector<vector<char>>& board)
+solve	LeetCode89_correct.cpp	/^    void solve(vector<vector<char>>& board) {$/;"	f	class:Solution	access:public	signature:(vector<vector<char>>& board)
+solveNQueens	LeetCode105.cpp	/^    vector<vector<string>> solveNQueens(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+solveNQueens	LeetCode105_correct.cpp	/^    vector<vector<string>> solveNQueens(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+sortList	LeetCode70.cpp	/^    ListNode* sortList(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+sortedArrayToBST	LeetCode37.cpp	/^TreeNode* sortedArrayToBST(vector<int>& nums) {$/;"	f	signature:(vector<int>& nums)
+sortedListToBST	LeetCode49.cpp	/^    TreeNode *sortedListToBST(ListNode *head){$/;"	f	class:Solution	access:public	signature:(ListNode *head)
+sortedListToBST	LeetCode49.cpp	/^    TreeNode* sortedListToBST(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+split	LeetCode56.cpp	/^    vector<string> split(const string& s, string delim)$/;"	f	class:Codec	access:public	signature:(const string& s, string delim)
+subsets	LeetCode85.cpp	/^    vector<vector<int>> subsets(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+subsetsWithDup	LeetCode87.cpp	/^    vector<vector<int>> subsetsWithDup(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+sumNumbers	LeetCode39.cpp	/^    int sumNumbers(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+swapPairs	LeetCode2_2.cpp	/^        ListNode* swapPairs(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+swapPairs	LeetCode9.cpp	/^    ListNode* swapPairs(ListNode* head) {$/;"	f	class:Solution	access:public	signature:(ListNode* head)
+top	LeetCode27.cpp	/^    int top() {$/;"	f	signature:()
+topvalue	LeetCode27.cpp	/^    int topvalue;$/;"	v
+totalNQueens	LeetCode108.cpp	/^        int totalNQueens(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+translate	LeetCode100.cpp	/^    void translate(vector<int>& result, vector<string>& res)$/;"	f	class:Solution	access:public	signature:(vector<int>& result, vector<string>& res)
+traversal	LeetCode73.cpp	/^How do we find these two elements? For example, we have the following tree that is printed as in order traversal:$/;"	v
+traverse	LeetCode73.cpp	/^private void traverse (TreeNode root) {$/;"	f	signature:(TreeNode root)
+treeheight	LeetCode32.cpp	/^int treeheight(TreeNode* root)$/;"	f	signature:(TreeNode* root)
+twoSum	LeetCode1.cpp	/^    vector<int> twoSum(vector<int>& num, int target) $/;"	f	class:Solution	access:public	signature:(vector<int>& num, int target)
+twoSum	LeetCode14.cpp	/^    vector<int> twoSum(vector<int>& numbers, int target) {$/;"	f	class:Solution	access:public	signature:(vector<int>& numbers, int target)
+twoSum	LeetCode86.cpp	/^    vector<int> twoSum(vector<int>& nums, int target) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums, int target)
+twoSum	fuck.cpp	/^    vector<int> twoSum(vector<int>& num, int target) $/;"	f	class:Solution	access:public	signature:(vector<int>& num, int target)
+val	LeetCode31.cpp	/^     *  *     int val;$/;"	m	struct:TreeNode	file:	access:public
+val	LeetCode73.cpp	/^        int temp = firstelement->val;$/;"	v
+value	LeetCode33.cpp	/^    int value(TreeNode* root,map<TreeNode*,int>& cash)$/;"	f	class:Solution	access:public	signature:(TreeNode* root,map<TreeNode*,int>& cash)
+vec	LeetCode98.cpp	/^    vector<vector<char>> vec = {vec_2, vec_3, vec_4, vec_5, vec_6, vec_7, vec_8, vec_9};$/;"	m	class:Solution	file:	access:public
+vec_2	LeetCode98.cpp	/^    vector<char> vec_2 = {'a', 'b', 'c'};$/;"	m	class:Solution	file:	access:public
+vec_3	LeetCode98.cpp	/^    vector<char> vec_3 = {'d', 'e', 'f'};$/;"	m	class:Solution	file:	access:public
+vec_4	LeetCode98.cpp	/^    vector<char> vec_4 = {'g', 'h', 'i'};$/;"	m	class:Solution	file:	access:public
+vec_5	LeetCode98.cpp	/^    vector<char> vec_5 = {'j', 'k', 'l'};$/;"	m	class:Solution	file:	access:public
+vec_6	LeetCode98.cpp	/^    vector<char> vec_6 = {'m', 'n', 'o'};$/;"	m	class:Solution	file:	access:public
+vec_7	LeetCode98.cpp	/^    vector<char> vec_7 = {'p', 'q', 'r', 's'};$/;"	m	class:Solution	file:	access:public
+vec_8	LeetCode98.cpp	/^    vector<char> vec_8 = {'t', 'u', 'v'};$/;"	m	class:Solution	file:	access:public
+vec_9	LeetCode98.cpp	/^    vector<char> vec_9 = {'w', 'x', 'y', 'z'};$/;"	m	class:Solution	file:	access:public
+whereis	LeetCode54.cpp	/^    int whereis(TreeNode* root, TreeNode* p)$/;"	f	class:Solution	access:public	signature:(TreeNode* root, TreeNode* p)
+x_label	LeetCode114.cpp	/^    vector<int> x_label = {0, 0, -1, 1};$/;"	m	class:Solution	file:	access:public
+y_label	LeetCode114.cpp	/^    vector<int> y_label = {-1, 1, 0, 0};$/;"	m	class:Solution	file:	access:public
+zigzag	LeetCode31.cpp	/^              void zigzag(TreeNode* r,int level,vector<vector<int>>& res,bool ltr)$/;"	f	class:Solution	access:public	signature:(TreeNode* r,int level,vector<vector<int>>& res,bool ltr)
+zigzagLevelOrder	LeetCode31.cpp	/^           vector<vector<int>> zigzagLevelOrder(TreeNode* root) {$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
