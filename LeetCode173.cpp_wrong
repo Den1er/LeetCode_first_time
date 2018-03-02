@@ -1,0 +1,36 @@
+542. 01 matrix
+//这是一个超时做法，这道题不应该用DFS
+class Solution {
+public:
+    vector<vector<int>> updateMatrix(vector<vector<int>>& matrix) {
+       vector<vector<int>> visited(matrix.size(), vector(matrix[0].size(), 0));
+       for(int i = 0; i < matrix.size(); ++i) 
+       {
+           for(int j = 0; j < matrix[0].size(); ++j)
+           {
+               if(matrix[i][j])
+               {
+                    matrix[i][j] = INT_MAX;
+                    dfs(matrix, visited, i, j, 0);
+               }
+           }
+
+       }
+    }
+private:
+    void dfs(vector<vector<int>>& matrix, vector<vector<int>>& visited, int i, int j, int depth)
+    {
+        if(i < 0 || i >= matrix.size() || j < 0 || j >= matrix[0].size() || visited[i][j] == 1) return;
+        if(matrix[i][j] == 0)
+            matrix[i][j] = min(matrix[i][j], depth);
+        visited[i][j] = 1;
+        for(int k = 0; k < 4; ++k)
+        {
+            dfs(matrix, visited, i + a[k], j + b[k], depth + 1);
+        }
+        visited[i][j] = 0;
+        
+    }
+    int a[4] = {1, -1, 0, 0};
+    int b[4] = {0, 0, -1, 1};
+};
